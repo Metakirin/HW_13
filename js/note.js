@@ -63,6 +63,15 @@ export class Note {
 
     // создать поле для текста и кнопку редактировать
 
+    // const template = `
+    //   <div class="note" style="position: absolute; top: ${data.top}px; left: ${data.left}px;">
+    //     <button class="note__close">X</button>
+    //     <div class="note__content">${data.content}</div>
+    //     <textarea hidden></textarea>
+    //     <button class="note__edit">Редактировать</button>
+    //   </div>
+    // `;
+
     noteNode.append(btnCloseNode, contentNode)
 
     return noteNode;
